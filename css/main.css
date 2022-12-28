@@ -197,4 +197,51 @@
   justify-content: end;
   margin-right: 50px;
   font-size: 22px;
+}
+.main .meet-dae {
+  width: 100%;
+  height: 900px;
+  border: 1px solid red;
+  background-color: #F1D3B9;
+  display: flex;
+}
+.main .meet-dae .img-box {
+  width: 50%;
+  height: 100%;
+}
+.main .meet-dae .img-box img {
+  margin-top: 100px;
+  margin-left: 190px;
+}
+.main .meet-dae .img-text {
+  width: 50%;
+  height: 100%;
+}
+.main .meet-dae .img-text .img-text-box {
+  margin-top: 180px;
+  margin-right: 188px;
+  width: 500px;
+  height: 550px;
+  background-color: white;
+}
+.main .meet-dae .img-text .img-text-box h4 {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #B45F4D;
+}
+.main .meet-dae .img-text .img-text-box p {
+  font-size: 19px;
+  margin: 0 50px 50px 50px;
+  color: #B45F4D;
+}
+.main .meet-dae .img-text .img-text-box a {
+  font-size: 19px;
+  margin: 0 50px 50px 50px;
+  text-decoration: none;
+  color: #B45F4D;
 }/*# sourceMappingURL=main.css.map */
