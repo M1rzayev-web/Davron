@@ -244,4 +244,74 @@
   margin: 0 50px 50px 50px;
   text-decoration: none;
   color: #B45F4D;
+}
+
+.footer {
+  width: 100%;
+  height: 700px;
+  border: 1px solid red;
+}
+.footer .follow-use {
+  width: 100%;
+  height: 50%;
+  border: 1px solid red;
+}
+.footer .follow-use h4 {
+  width: 100%;
+  height: 40%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+.footer .follow-use ul {
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+.footer .follow-use ul li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+.footer .follow-use ul li:hover {
+  height: 230px;
+}
+.footer .follow-link {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.footer .follow-link .link-left {
+  width: 50%;
+  height: 75%;
+}
+.footer .follow-link .link-left ul {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+}
+.footer .follow-link .link-left ul li {
+  margin: 50px 70px;
+}
+.footer .follow-link .link-left ul li a {
+  font-size: 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #B45F4D;
+}
+.footer .follow-link .link-right {
+  width: 50%;
+  height: 75%;
+}
+.footer .follow-link .link-right ul {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
 }/*# sourceMappingURL=main.css.map */
