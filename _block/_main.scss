@@ -1,0 +1,72 @@
+.main {
+    width: 100%;
+    .pretty-bottle {
+        width: 100%;
+        height: 700px;
+        border: 1px solid;
+        h3 {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #B45F4D;
+            font-size: 27px;
+        }
+        ul {
+            width: 100%;
+            height: 90%;
+            display: flex;
+            li {
+                width: 33.3%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: -20px;
+                a {
+                    text-decoration: none;
+                    color: #B45F4D;
+                }
+                a:hover {
+                    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+                }
+            }
+        }
+    }
+    .desert {
+        width: 100%;
+        height: 500px;
+        border: 1px solid red;
+        .desert-img {
+            width: 80%;
+            height: 82%;
+            margin: 50px 150px;
+            background-image: url("../img/shag\'am.png");
+            .desert-text {
+                width: 100%;
+                height: 100px;
+                display: flex;
+                background-color: #DF9B7A;
+                color: white;
+                h3 {
+                    width: 70%;
+                    height: 100%;
+                    display: flex;
+                    font-size: 30px;
+                    margin-left: 50px;
+                    align-items: center;
+                }
+                a {
+                    text-decoration: none;
+                    color: white;
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+}
